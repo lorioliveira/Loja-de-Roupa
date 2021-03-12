@@ -7,6 +7,7 @@
 	width: 140px;
 
 	position: absolute;
+	text-decoration:none; 
 	top: 0;
 	right: 0;
 }
