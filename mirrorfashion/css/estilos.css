@@ -176,7 +176,7 @@ opacity: 0.4;
 	box-shadow: 0 0 5px #333;
 	transition: 0.7s;
 /* Quando passar o mouse, aumenta o elemento em 20%, como se fosse um ZOOM*/
-	transform: scale(1.2) rotate(-1deg); /*rotaciona em 2 graus sentido anti-horário*/
+	/*transform: scale(1.2) rotate(-1deg); /*rotaciona em 2 graus sentido anti-horário*/
 	font-family: serif;
 	text-decoration-style: double;
 
