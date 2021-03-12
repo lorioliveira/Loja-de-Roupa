@@ -1,0 +1,26 @@
+p { /* valor de especificidade: 001 */
+	color:blue;
+}
+
+.destaque { /* valor de especificidade: 010 */
+	color: red;
+}
+
+#cabecalho { /* valor deespecificidade: 100 */
+	color: green;
+}
+
+/* Nos seletores combinado e compostos, 
+basta somar os valores em suas determinadas posições
+como nos exemplos a seguir: */
+#rodape p { /* valor da especificidade: 101*/
+	font-size: 11px;
+}
+
+#cabeçalho .conteudo h1 { /* valor da especificidade: 111 */
+	color:green;
+ }
+
+ .conteudo div p span { /* vallor da especificidade: 013 */
+ 	font-size: 13px;
+ }

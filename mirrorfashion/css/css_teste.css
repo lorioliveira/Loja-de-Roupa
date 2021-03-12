@@ -1,0 +1,39 @@
+h3{
+	color:#0FE40F;
+}
+
+h2 ~ p{
+	font-style: italic;
+}
+
+h2 + p{
+	font-variant: small-caps;
+}
+
+/* vai pegar todos os h1 da página */
+h1 {
+color: blue;
+}
+
+/* vai pegar todos os h1 do article, incluindo de dentro da section */
+article h1 {
+color: blue;
+}
+
+/* vai pegar só o h1 principal, filho direto de article e não os netos */
+article > h1 {
+color: blue;
+}
+
+p {
+color: gray;
+}
+p.especial {
+color: black; /* restaura cor do especial */
+}
+
+/*No CSS3, há uma outra forma, usando o seletor de negação. Ele nos permite escrever um seletor que pega
+elementos que não batem naquela regra.*/
+p:not(.especial) {
+color: gray;
+}

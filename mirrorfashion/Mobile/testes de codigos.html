@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css_teste.css">
+	<title>Parte Teórica - Importante</title>
+</head>
+<body>
+
+	<h3>Seletor de Atributos</h3>
+		<p>Um dos seletores CSS mais versáteis é o seletor de atributo, com ele podemos vericar a presença ou valor de um atributo para selecioná-lo. Por exemplo:
+
+<h4>input[value] {</br>
+color: #cc0000;</br>
+}</h4></p>
+
+<p>O seletor acima age em todos os elementos da tag <'input'> que têm o atributo “value”. Também é possível vericar se o atributo tem um valor especifíco: 
+
+<h4>input[type="text"] {</br>
+border-radius: 4px;</br>
+}</h4></p>
+
+<p>Além de vericar um valor integralmente, é possível utilizar alguns operadores para selecionar valores em determinadas condições, como por exemplo o seletor de atributo com prexo:
+
+<h4>div[class|="menu"] {</br>
+border-radius: 4px;</br>
+}</h4></p>
+
+<p>O seletor acima vai agir em todas as tags <'div'> cujo atributo “class” comece com a palavra menu seguida de um hífen e qualquer outro valor na sequência, como por exemplo <em>menu-principal, menu-departamentos e menu-teste</em>.
+Também é possível buscar por uma palavra especíca no valor, não importando o valor completo do atributo.
+Por exemplo:
+
+<h4>input[value~="problema"] {</br>
+color: #cc0000;</br>
+}</h4></p>
+
+<p>O seletor acima agirá sobre todos os elementos da tag <'input'> que contiverem a palavra <em>“problema”</em> em seu conteúdo.
+Como CSS3 é possível utilizar novos operadores comsinais que se assemelhamaos das expressões regulares:
+
+<h4> /* busca por inputs com valor de "name" iniciando em "usuario" */</br>
+input[name^="usuario"] {</br>
+color: 99ffcc;</br>
+}
+</br></br>
+/* busca por inputs com valor de "name" terminando em "teste" */</br>
+input[name$="teste"] {</br>
+background-color: #ccff00;</br>
+}</br></br>
+/* busca por inputs com valor do atributo "name" contendo "tela" em qualquer posição */</br>
+input[name*="tela"] {</br>
+color: #666666;</br>
+}
+</h4>
+Os seletores de atributo têm o mesmo valor de especicidade dos seletores de classe.
+
+
+
+	<h3>Seletor de irmãos</h3>
+<p>Como faremos se quisermos estilizar de uma certa maneira todos os parágrafos após o subtítulo? O seletor de irmãos (siblings) (~) serve pra isso! Isso indica que queremos selecionar todos os p que foram precedidos por algum h2 e são irmãos do subtítulo (ou seja, estão sob a mesma tag pai). No HTML anterior, serão selecionados os dois últimos parágrafos (Texto e Mais texto).</p>
+
+<h4>EX:</h4>
+<article>
+	<h1>Titulo</h1>
+	<p>inicio</p>
+
+	<h2>Subtitulo</h2>
+	<p>Texto</p>
+	<p>Mais textos</p>
+</article>
+<h3>Seletor de urmãos adjacentes</h3>
+<p>Ainda como HTML anterior, o que fazer se quisermos selecionar apenas o parágrafo imediatamente seguinte ao subtítulo? Ou seja, é um p irmão do h2 mas que aparece logo na sequência. Fazemos isso com o seletor de irmão adjacentes - adjacent sibling:</p>
+
+<p>Nesse caso, apenas o parágrafo Texto será selecionado. É um irmão de h2 e aparece logo depois do mesmo.</p>
+
+<h3>Seletor de filho direto</h3>
+<p>Se tivermos o seguinte HTML com títulos e seções de um artigo:</p>
+
+<article>
+	<h1>Titulo principal</h1>
+	<section>
+		<h1>titulo da seção</h1>
+	</section>
+</article>
+
+<h3>Negação</h3>
+<p>Imagine o seguinte o HTML com vários parágrafos simples:</p>
+
+<p>
+	<p>Texto</p>
+	<p>Outro texto</p>
+	<p class="especial">Texto especial</p>
+	<p>Mais texto</p>
+</p>
+
+<p>Queremos fazer todos os parágrafos de cor cinza, exceto o que tem o texto especial. Precisamos destacá-lo
+de alguma forma no HTML para depois selecioná-lo no CSS. Uma classe ou ID resolve:</p>
+</br>
+
+<h1>Ferramenta</h1>
+<p>Uma ferramenta bastante útil e recomendada é o <em>Ultimate CSS Gradient Generator</em> da ColorZilla. Ela nos permite criar gradientes CSSì visualmente como num editor de imagens. Além disso, já implementa todos os hacks e prexos para navegadores diferentes. Há até uma opção que permite que enviemos uma imagem com o design de um gradiente e ele identica as cores e gera o código correto.
+<h2>http://www.colorzilla.com/gradient-editor/</h2>
+Recomendamos fortemente o uso dessa ferramenta para gerar gradientes CSSì3</p>
+
+</body>
+</html>
