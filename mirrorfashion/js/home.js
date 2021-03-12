@@ -1,3 +1,5 @@
+// PARTE DE JAVASCRPT - PAGINA 90 DA APOSTILA
+
 /* 
 function validaBusca() {
 	if (document.querySelector('#q').value =='') {
