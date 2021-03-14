@@ -133,9 +133,6 @@ color: #867dc6;
 
 /* ------------------------------------------------------ */
 
-
-
-
 /* RODAPÉ 
 
 footer {
@@ -186,6 +183,7 @@ footer .container {
 	background-image: url(../img/googleplus.png);
 }
 
+/* ------------------------------------------------------ */
 
 /* Exercicio de Seletores e Pseudo-Classes * pag 92 - 5.4*/ 
 
@@ -200,10 +198,43 @@ p:first-line {
 	font-variant: small-caps;
 }
 
-
-
-:not(p) +p:first-line {
-	font-variant: small-caps; /*Isso signica: selecione as 
-	primeiras linhas dos parágrafos que não são 
-	precedidos por outros parágrafos.*/
+:not(p) + p:first-line {
+	font-variant: small-caps;
 }
+/*Isso significa: selecione as 	primeiras linhas dos parágrafos que não são 
+	precedidos por outros parágrafos.*/
+
+
+/* ------------------------------------------------------ */
+
+/* Pagina 109 - Com o CSS3 há o suporte a propriedade border-radius que recebe o tamanho do raio de arredondamento
+das bordas. Por exemplo: */
+
+div {
+	border-radius: 5px;
+}
+.a{
+/*todas as bordas arredondadas com um raio de 15px*/
+	border-radius: 15px;
+}
+.b{
+/*borda superior esquerda e inferior direita com 5px
+borda superior direita e inferior esquerda com 20px*/
+	border-radius: 5px 20px;
+}
+.c{
+/*borda superior direita com 5px
+borda superior direita e inferior esquerda com 20px
+borda inferior direita com 50px */
+	border-radius: 5px 20px 50px;
+}
+.d{
+/*borda superior direita com 5px
+borda superior direita com 20px
+borda inferior direita com 50px
+bordar inferior esquerda com 100px */
+	border-radius: 5px 20px 50px 100px;
+}
+
+/* ---------------------------------------------------*/
+/* CSS3 - Text-Shadow

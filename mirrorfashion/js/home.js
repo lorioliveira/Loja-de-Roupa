@@ -21,6 +21,8 @@ function validaBusca() {
 	}
 }*/
 
+
+/*
 // funções anonimas - que permine definir a função diretamente na definição do onsubmit
 // *acontece a mesma coisa que a função anterior, apenas define a função diretamente: .onsubmit = function(){*
 document.querySelector('#form-busca').onsubmit = function(){
@@ -29,3 +31,46 @@ document.querySelector('#form-busca').onsubmit = function(){
 		return false;
 	}
 }
+*/
+
+// funções temporais - que permite executar umtrecho de código após certo tempo
+
+//executa a minhaFuncao daqui a um segundo
+ //setTimeout(minhaFuncao, 1000);
+
+// executa a minhaFuncao de 1 em 1 segundo
+ //setInterval(minhaFuncao, 1000);
+
+ // DANDO PAUSE E PLAY NO BANNER 
+var banners = ["img/destaque-home.png", "img/destaque-home-2.png"];
+var bannerAtual = 0;
+function trocaBanner() {
+bannerAtual = (bannerAtual + 1) % 2;
+document.querySelector('.destaque img').src = banners[bannerAtual];
+}
+setInterval(trocaBanner, 2000);
+
+
+var timer = setInterval(trocaBanner, 2000);
+
+var controle = document.querySelector('.pause');
+controle.onclick = function() {
+	if (this.className == 'pause') {
+		clearInterval(timer);
+		controle.className = 'play';
+	} else {
+		timer = setInterval(trocaBanner, 2000);
+		controle.className = 'pause';
+	}
+return false;
+};
+
+// maneira mais recomendada de se associar uma função a eventos
+document.querySelector('#destaque').addEventListener('click', function() { 
+	// tratamento do evento
+});
+
+//caso IE seja antigo, utiliza o attachEvent para suportar
+document.querySelector('#destaque').attachEvent('onclick', function() {
+// tratamento do evento
+});
