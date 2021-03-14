@@ -238,3 +238,17 @@ bordar inferior esquerda com 100px */
 
 /* ---------------------------------------------------*/
 
+p {
+/* Chrome até versão 3, Safari até versão 4 */
+-webkit-border-radius: 5px;
+/* Firefox até 3.6 */
+-moz-border-radius: 5px;
+/* Todas as versões modernas dos navegadores,
+incluindo IE e Opera que nunca precisaram de
+prefixo pra isso */
+border-radius: 5px;
+}
+
+/* ---------------------------------------------------*/
+
+/* ---------------------------------------------------*/

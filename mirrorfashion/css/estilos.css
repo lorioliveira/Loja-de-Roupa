@@ -182,7 +182,6 @@ opacity: 0.4;
 	width: 140px;
 	margin: 2px;
 	padding-bottom: 10px;
-
 	transition: 0.7s;
 }
 
@@ -192,7 +191,7 @@ opacity: 0.4;
 	box-shadow: 0 0 5px #333;
 	transition: box-shadow 0.7s;
 /* faz com que o fundo fique branco quando passar o mouse por cima do produto*/
-	background-color: rgba(255,255,255,0.8);
+	background-color: rgb(255,255,255);
 	box-shadow: 0 0 5px #333;
 	transition: 0.7s;
 /* Quando passar o mouse, aumenta o elemento em 20%, como se fosse um ZOOM*/
