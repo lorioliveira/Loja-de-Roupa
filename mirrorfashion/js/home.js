@@ -44,16 +44,18 @@ document.querySelector('#form-busca').onsubmit = function(){
  // DANDO PAUSE E PLAY NO BANNER 
 var banners = ["img/destaque-home.png", "img/destaque-home-2.png"];
 var bannerAtual = 0;
-function trocaBanner() {
-bannerAtual = (bannerAtual + 1) % 2;
-document.querySelector('.destaque img').src = banners[bannerAtual];
-}
-setInterval(trocaBanner, 2000);
 
+function trocaBanner() {
+	bannerAtual = (bannerAtual + 1) % 2;
+	document.querySelector('.destaque img').src = banners[bannerAtual];
+}
+
+setInterval(trocaBanner, 2000);
 
 var timer = setInterval(trocaBanner, 2000);
 
 var controle = document.querySelector('.pause');
+
 controle.onclick = function() {
 	if (this.className == 'pause') {
 		clearInterval(timer);
@@ -62,15 +64,6 @@ controle.onclick = function() {
 		timer = setInterval(trocaBanner, 2000);
 		controle.className = 'pause';
 	}
-return false;
+	return false;
 };
 
-// maneira mais recomendada de se associar uma função a eventos
-document.querySelector('#destaque').addEventListener('click', function() { 
-	// tratamento do evento
-});
-
-//caso IE seja antigo, utiliza o attachEvent para suportar
-document.querySelector('#destaque').attachEvent('onclick', function() {
-// tratamento do evento
-});

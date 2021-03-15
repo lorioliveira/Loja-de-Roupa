@@ -57,7 +57,6 @@ header {
 
 body {
 	color: #333333;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .container {
@@ -202,8 +201,9 @@ opacity: 0.4;
 }
 
 .painel h2 {
-	font-size: 24px;
+	font-size: 25px; /* título dos paineis*/
 	font-weight: bold;
+	padding-bottom: 15px;
 	text-transform: capitalize;
 
 	margin-bottom: 10px;
@@ -282,12 +282,11 @@ footer .container {
 	background-image: url(../img/google_plus.png);
 }
 
-/* CSS DOS JAVASCRIPT */
+/* CSS DOS JAVASCRIPT  - BOTÃO DE PLAY/PAUSE DOS BANNERS */
 
 .destaque {
 position: relative;
 }
-
 .pause,
 .play {
 display: block;
@@ -295,15 +294,14 @@ position: absolute;
 right: 15px;
 top: 15px;
 }
-
 .pause {
-border-left: 10px solid #686868;
-border-right: 10px solid #686868;
+border-left: 10px solid #5F5F5F;
+border-right: 10px solid #5F5F5F;
 height: 30px;
 width: 5px;
 }
 .play {
-border-left: 25px solid #686868;
+border-left: 25px solid #5F5F5F;
 border-bottom: 15px solid transparent;
 border-top: 15px solid transparent;
 }
