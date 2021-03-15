@@ -57,6 +57,7 @@ header {
 
 body {
 	color: #333333;
+	font-family: "Lucida Sans Unicode", "Lucida Grande";
 }
 
 .container {
@@ -169,17 +170,17 @@ opacity: 0.4;
 
 .painel {
 	margin: 10px 0;
-	padding: 10px;
+	/*padding: 10px;*/
 	width: 445px;
 	border-radius: 4px;
-	box-shadow: inset 1px 1px 4px #999; /* inset = bordar internas*/
+	/*box-shadow: inset 1px 1px 4px #999;  inset = bordar internas*/
 }
 
 .painel li {
 	display: inline-block;
 	vertical-align: top;
-	width: 140px;
-	margin: 2px;
+	width: 160px;
+	margin: 20px;
 	padding-bottom: 10px;
 	transition: 0.7s;
 }
@@ -187,15 +188,15 @@ opacity: 0.4;
 
 .painel li:hover{
 	/* Faz com que mostre uma sombra por trás e que ela apareça suavemente*/
-	box-shadow: 0 0 5px #333;
-	transition: box-shadow 0.7s;
+	/*box-shadow: 0 0 5px #333;*/
+	/*transition: box-shadow 0.7s;*/
 /* faz com que o fundo fique branco quando passar o mouse por cima do produto*/
-	background-color: rgb(255,255,255);
-	box-shadow: 0 0 5px #333;
-	transition: 0.7s;
+	/*background-color: rgb(255,255,255);*/
+	box-shadow: 0 0 10px #A6A6A6;
+		/*transition: 0.7s;
 /* Quando passar o mouse, aumenta o elemento em 20%, como se fosse um ZOOM*/
 	/*transform: scale(1.2) rotate(-1deg); /*rotaciona em 2 graus sentido anti-horário*/
-	font-family: serif;
+	font-family: "Lucida Sans Unicode", "Lucida Grande";
 	text-decoration-style: double;
 
 }
@@ -213,9 +214,9 @@ opacity: 0.4;
 }
 
 .painel a {
-	color: #333;
-	font-size: 14px;
-	text-align: center;
+	color: #000;
+	font-size: 16px;
+	text-align: center; 
 	text-decoration: none;
 }
 
