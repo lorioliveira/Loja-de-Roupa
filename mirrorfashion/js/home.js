@@ -42,7 +42,7 @@ document.querySelector('#form-busca').onsubmit = function(){
  //setInterval(minhaFuncao, 1000);
 
  // DANDO PAUSE E PLAY NO BANNER 
-var banners = ["img/destaque-home.png", "img/destaque-home-2.png"];
+var banners = ["img/clothingindustry.png", "img/Accessories.png"];
 var bannerAtual = 0;
 
 function trocaBanner() {
@@ -66,4 +66,3 @@ controle.onclick = function() {
 	}
 	return false;
 };
-
