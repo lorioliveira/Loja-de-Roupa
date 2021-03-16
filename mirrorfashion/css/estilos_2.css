@@ -1,3 +1,7 @@
+
+/*CÓDIGOS PARA TELA NOVA-CONTA, SUACONTA, TELA_SALVAR */
+
+
 .sacola {
 	background: url(../img/sacola_1.png) no-repeat top right;
 
@@ -120,6 +124,14 @@ content: '\2756';
 padding-right: 5px;
 opacity: 0.4;
 }
+
+#welcome{
+	width: 500px;
+	height: 300px;
+	margin-left: 120px;
+  	margin-bottom: 5px;
+
+}
 /*FIM DAS ALTERAÇÕES DO MENU DE DEPARTAMENTOS*/
 
 
@@ -156,7 +168,7 @@ label {
 
     /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels
      e os seus campos de texto*/
-    margin-left: 15em;
+    margin-left: 14em;
 }
 
 
