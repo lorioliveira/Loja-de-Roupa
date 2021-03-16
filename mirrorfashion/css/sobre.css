@@ -22,9 +22,13 @@ figcaption {
 	font-style: italic;
 }
 
+#titulo {
+	padding-left: 20px;
+}
+/*
 h1 {
 	padding: 10px;
-}
+}*/
 
 h2 {
 	margin-top: 30px;
@@ -50,33 +54,38 @@ body {
 	width: 940px;
 }
 
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	color: #0308EA;
+}
+
 #centro-distribuicao {
 	margin-left: auto;
 	margin-right: auto;
 	width: 550px;
-
-	transition: 0.7s;
 }
 
 
 #rodape {
 	color: #777;
 	margin: 30px 0;
-	padding: 30px 0;
+	padding: 20px 0;
 }
 
 #rodape img {
 	margin-right: 30px;
 	vertical-align: middle;
 	width: 94px;
+	padding-left: 20px;
 }
 
 #familia-pelho {
 	float: right;
 	margin: 0 0 10px 10px;
-	transition: 0.7s;
 }
-
 
 /* Conteúdo do cabeçalho */
 
@@ -84,7 +93,6 @@ body {
 	background: url(../img/sacola_1.png) no-repeat top right;
 
 	font-size: 12px;
-	padding-right: 35px;
 	text-align: right;
 	width: 140px;
 }
@@ -110,6 +118,7 @@ header {
 
 .menu-opcoes a {
 	color: #003366;
+	padding-right: 5px;
 }
 
 .menu-opcoes a:hover {
@@ -120,48 +129,50 @@ color: #867dc6;
 }
 
 .sacola {
-	padding-top: 8px;
+	padding-top: 7px;
 	position: absolute;
 	top: 0;
 	right: 0;
 }
 
 .container {
-	margin:  0 auto;
+	margin: 0 auto;
+  	margin-top: 0px;
 	width: 940px;
 }
 
 /* ------------------------------------------------------ */
 
-/* RODAPÉ 
+/* RODAPÉ */
 
 footer {
-	background-image: url(img/fundo-rodape.png);
+	background-image: url(../img/fundo-rodape.png);
 	clear: both;
-	padding: 20px 0;
+	position: relative;
+	width: 100%;
 }
-*/
 
 footer .container {
-	position: relative
-
+	position: relative;
 }
+
 .social {
 	list-style-type: none; /* faz com que não apareça o símbolo que mostra que é uma lista sabe */
 	
+	margin-top: 5px;
 	position: absolute;
-	top: 13px;
+	top: 12px;
 	right: 0;
 }
 
 .social li {
 	/* faz com que os icones flutuem lado a lado horizontalmente */
 	float: left;
-	margin-left: 25px;
-
+	padding: 5px;
+	margin-right: 10px;
 }
 
-.social a {
+.social li a {
 	/* tamanho do imagem */ 
 	height: 32px;
 	width: 32px;
@@ -186,7 +197,7 @@ footer .container {
 
 /* ------------------------------------------------------ */
 
-/* Exercicio de Seletores e Pseudo-Classes * pag 92 - 5.4*/ 
+/* Exercicio de Seletores e Pseudo-Classes * pag 92 - 5.4 
 
 p:first-letter{
 	font-weight: bold;
@@ -195,45 +206,43 @@ p:first-letter{
 h1 + p {
 	text-indent: 0;
 }
-p:first-line {
+ /* p:first-line {
 	font-variant: small-caps;
 }
 
 :not(p) + p:first-line {
 	font-variant: small-caps;
 }
-/*Isso significa: selecione as 	primeiras linhas dos parágrafos que não são 
+Isso significa: selecione as 	primeiras linhas dos parágrafos que não são 
 	precedidos por outros parágrafos.*/
 
 
 /* ------------------------------------------------------ */
 
 /* Pagina 109 - Com o CSS3 há o suporte a propriedade border-radius que recebe o tamanho do raio de arredondamento
-das bordas. Por exemplo: */
+das bordas. Por exemplo: 
 
-div {
-	border-radius: 5px;
-}
+
 .a{
-/*todas as bordas arredondadas com um raio de 15px*/
+/*todas as bordas arredondadas com um raio de 15px
 	border-radius: 15px;
 }
 .b{
 /*borda superior esquerda e inferior direita com 5px
-borda superior direita e inferior esquerda com 20px*/
+borda superior direita e inferior esquerda com 20px
 	border-radius: 5px 20px;
 }
 .c{
 /*borda superior direita com 5px
 borda superior direita e inferior esquerda com 20px
-borda inferior direita com 50px */
+borda inferior direita com 50px 
 	border-radius: 5px 20px 50px;
 }
 .d{
 /*borda superior direita com 5px
 borda superior direita com 20px
 borda inferior direita com 50px
-bordar inferior esquerda com 100px */
+bordar inferior esquerda com 100px 
 	border-radius: 5px 20px 50px 100px;
 }
 

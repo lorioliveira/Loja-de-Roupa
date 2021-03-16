@@ -37,3 +37,36 @@ elementos que não batem naquela regra.*/
 p:not(.especial) {
 color: gray;
 }
+
+/*Há duas pseudo-classes do CSS3 que representam exatamente o primeiro elemento filho de outro (first-child)
+e o último elemento filho (last-child). */
+li:first-child {
+	color: red;
+}
+li:last-child {
+	color: blue;
+}
+
+/*
+nth-child
+Um seletor ainda mais genérico do CSS3 é o :nth-child() que nos permite passar o índice do
+elemento. Por exemplo, podemos pegar o terceiro item com:
+li:nth-child(3) { 
+	color: yellow; 
+}
+Porém, o mais interessante é que o nth-child pode receber uma expressão aritmética para indicar quais índices selecionar. É fácil fazer uma lista zebrada, com itens ímpares de uma cor e
+pares de outra:
+li:nth-child(2n) { 
+	color: green; 
+}  elementos pares 
+
+li:nth-child(2n+1) {
+	color: blue; 
+} elementos impares 
+*/
+
+/* seleciona o link no exato momento em que passamos o mouse por cima dele 
+a:hover {
+background-color:#FF00FF;
+}
+*/
