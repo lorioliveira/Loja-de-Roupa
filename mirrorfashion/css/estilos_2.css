@@ -65,11 +65,6 @@ body {
 
 /* MENU DOS DEPARTAMENTOS */
 
-.busca input {
-	border-radius: 5px; /* deixar a caixinha arredondada*/
-	vertical-align: middle;
-}
-
 .busca input [type=search] {
 	width: 170px;
 
@@ -85,14 +80,14 @@ body {
 	font-weight: bold;
 	float: left;
 	width: 230px;
-	padding-bottom: 10px;
+	padding-bottom: 40px;
 	margin-bottom: 5px;
 }
 
 .menu-departamentos li {
 	list-style-type: none; /* faz com que não apareça o símbolo que mostra que é uma lista sabe */
 	background-color: white;
-	margin-bottom: 1px;
+	margin-bottom: 2px;
 	padding: 5px 5px;
 
 }
@@ -347,7 +342,6 @@ body {
 
 .destaque {
 	margin-top: 10px;
-}
 .busca {
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
@@ -374,7 +368,6 @@ body {
 
 .menu-departamentos {
 	clear: left;
-	margin-top: 5px;
 	padding-bottom: 10px;
 }
 

@@ -1,64 +1,86 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	
 	<title>Mirror Fashion</title>
+	<!--<link rel="stylesheet" href="css/reset.css">-->
+	<link rel="stylesheet" type="text/css" href="css/estilos.css"> 
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	
+	<link rel="stylesheet" href="css/mobile.css" media="(max-width: 320px)">
+	<link rel="stylesheet" href="css/mobile.css" media="(max-width: 939px)">
+
 	<meta name="viewport" content="width=device-width">
+	 
+	<!-- <link rel="stylesheet" href="css/mobile_sobre.css" media="(min-width: 320px)"> -->
 	<meta charset="utf-8">
 </head>
 	<header class="container">
-		<h1><img src="img/logo.png" alt="Mirror Fashion"></h1>
-		<p class="sacola">
-			Nenhum item na sacola de compras
-		</p>
+		<h1><a href="index.html"><img src="img/logo.png" alt="Mirror Fashion"></a></h1>
+		<p class="sacola" ><a href="">Nenhum item na sacola</a></p>
 
-		<nav class="menu-opcoes">
+		<nav class="menu-opcoes" class="links">
 			<ul>
-				<li><a href="#">Sua Conta</a></li>
-				<li><a href="#">Lista de Desejos</a></li>
-				<li><a href="#">Cartão Fidelidade</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="produtos.html">Produtos</a></li>
 				<li><a href="sobre.html">Sobre</a></li>
-				<li><a href="#">Ajuda</a></li>
-			</ul>
+				<li><a href="">Cartão Fidelidade</a></li>
+				<li><a href="suaconta.html">Sua Conta</a></li>
+				<!-- <li><a href="">Lista de Desejos</a></li> -->
+			</ul>		
 		</nav>
 	</header>
 <body>
+	<!-- CONTAINER - DESTAQUE - PARTE PRINCIPAL-->
 	<div class="container destaque">
+
+		<!-- SEÇÃO DE BUSCA -->
 		<section class="busca">
 			<h2>Busca</h2>
-				<form>
-				<!-- SEÇÃO DE BUSCA -->
-					<input type="search">
-					<input type="image" src="img/busca.png">
+				<!-- pagina 90 da apostila -->
+				<form action="http://www.google.com.br/search" id="form-busca">
+					<input type="search" name="q" id="q"> <input type="image" src="img/busca.png" href="" >
 				</form>
-			</section> 
+
+		</section> 
 			<!--FiM DA SEÇÃO BUSCA -->
+
+	<!--Seção dos Departamentos -->
 		<section class="menu-departamentos">
-			<h2> Departamentos</h2>
+			<h2 style="margin-left: 5px;"> Departamentos</h2>
 				<nav>
 						<li>
-							<a href="#">Blusas e Camisas</a>
+							<a href="index.html">Blusas / Camisas</a>
 							<ul>
-								<li><a href="#">Manga Curta</a></li>
-								<li><a href="#">Manga Comprida</a></li>
-								<li><a href="#">Camisa Social</a></li>
-								<li><a href="#">Camisa Casual</a></li>
+								<li><a href="https://www.google.com.br/search">Manga Comprida</a></li>
+								<li><a href="">Manga Curta</a></li>
+								<li><a href="https://www.google.com.br/">Camisa Social</a></li>
+								<li><a href="">Camisa Casual</a></li>
 							</ul>
 						</li>
-						<li><a href="#">Calças</a></li>
-						<li><a href="#">Saias</a></li>
-						<li><a href="#">Vestidos</a></li>
-						<li><a href="#">Sapatos</a></li>
-						<li><a href="#">Bolsas e Carteiras</a></li>
-						<li><a href="#">Acessórios</a></li>
+						<li><a href="">Calças</a></li>
+						<li><a href="https://www.google.com.br/">Saias</a></li>
+						<li><a href="">Vestidos</a></li>
+						<li><a href="">Sapatos</a></li>
+						<li><a href="">Bolsas / Carteiras</a></li>
+						<li><a href="">Acessórios</a></li>
 				</nav>
 		</section> 
-		<!-- FIM DA SEÇÃO DEPARTAMENTOS -->
-		<img src="img/destaque-home.png" alt="Promoção: Big City Night">
+		
+	<!-- FIM DA SEÇÃO DEPARTAMENTOS -->
+
+	<!-- SLIDES DE BANNERS -->
+	<!-- Na apostila, só mostra a class com pause, mas na vdd tem que colocar o play tbm, ai funciona.
+	 OUTRA COISA: SÓ FUNCIONA 100% QUANDO COLOCA A VÍRGULA!!  -->
+		<a href="produtos.html"> <img src="img/clothingindustry.png"></a>
+		<a href="" class="play, pause"></a>
+
+	<!-- FIM DOS SLIDES DE BANNERS -->
 	</div>
+
 	<!-- FIM CONTAINER DESTAQUE -->
 
+<!-- LISTA DOS PRODUTOS NO PAINEL DE NOVIDADES -->
 	<div class="container paineis">
 		<!-- Os paineis de novidades e mais vendidos entrarão aqui -->
 		<section class="painel novidades">
@@ -67,92 +89,94 @@
 				<!-- PRIMEIRO PRODUTO -->
 				<li>
 					<a href="produto.html">
-						<img src="img/produtos/miniatura1.png">
-						<figcaption> Fuzz Cardigan por R$ 129,90</figcaption>
+						<img src="img/produtos/blusaamarela.png">
+						<figcaption>Blusa Amarela - R$ 59,90</figcaption>
 					</a>
 				</li>
 				<!--SEGUNDO PRODUTO -->
 				<li>
 					<a href="produto.html">
-						<img src="img/produtos/miniatura2.png">
-						<figcaption>Uma blusinha show por R$ 29,90</figcaption>
+						<!--<img src="img/produtos/miniatura1.png"> -->
+						<img src="img/produtos/blusaroxa.png">
+						<figcaption>Blusa Roxa - R$ 29,90</figcaption>
 					</a>
 				</li>
 				<!--TERCEIRO PRODUTO -->
 				<li>
 					<a href="produto.html">
-						<img src="img/produtos/miniatura3.png">
-						<figcaption>Um Casaquinho muito fofo por R$ 38,99 </figcaption>
+						<img src="img/produtos/blusacobra.png">
+						<figcaption>Blusa Snake- R$ 39,90</figcaption>
 					</a>
 				</li>
 				<!-- QUARTO PRODUTO -->
 				<li>
 					<a href="produto.html">
-						<img src="img/produtos/miniatura4.png">
-						<figcaption> Casaco roxo por R$ 69,99</figcaption>
+						<img src="img/produtos/vestrosa.png">
+						<figcaption>Vestido Elegance - R$ 169,99</figcaption>
 					</a>
 				</li>
 				<!-- QUINTO PRODUTO -->
 				<li>
 					<a href="produto.html">
-						<img src="img/produtos/miniatura5.png">
-						<figcaption>Blusa básica azul por 29,90</figcaption>
+						<img src="img/produtos/elefante.png">
+						<figcaption>Camisa Elephant - 59,90</figcaption>
 					</a>
 				</li>
 				<!--SEXTO E ULTIMO PRODUTO -->
 				<li>
 					<a href="produtos.html">
-						<img src="img/produtos/miniatura6.png">
-						<figcaption>Blusinha rosa por R$ 29,90</figcaption>
+						<img src="img/produtos/relogio.png">
+						<figcaption>Relógio - R$ 89,90</figcaption>
 					</a>
 				</li>
 			</ol>
 		</section>
 		<!-- FIM DA LISTAGENS DE PRODUTOS NO PAINEL DE NOVIDADES -->
 
+		<!-- LISTAGEM DE PRODUTOS DO PAINEL DE MAIS VENDIDOS -->
 		<section class="painel mais-vendidos">
 			<h2>Mais Vendidos</h2>
 			<ol>
 				<!-- PRIMEIRO PRODUTO -->
 				<li>
 					<a href="produto.html">
-						<img src="img/produtos/miniatura1.png">
-						<figcaption> Fuzz Cardigan por R$ 129,90</figcaption>
+						<img src="img/produtos/calcapretoebranco.png">
+						<figcaption>Calça B&W - R$ 129,90</figcaption>
 					</a>
 				</li>
 				<!--SEGUNDO PRODUTO -->
 				<li>
 					<a href="produto.html">
-						<img src="img/produtos/miniatura2.png">
-						<figcaption> Uma blusinha show por R$ 29,90</figcaption>
+						<img src="img/produtos/arcoiris.png">
+						<figcaption>Casaco Rainbow - R$ 89,90</figcaption>
 					</a>
 				</li>
 				<!--TERCEIRO PRODUTO -->
 				<li>
 					<a href="produto.html">
-						<img src="img/produtos/miniatura3.png">
-						<figcaption>Um Casaquinho muito fofo por R$ 38,99 </figcaption>
+						<img src="img/produtos/oculosrosa.png">
+						<figcaption>Oculos - R$ 58,99 </figcaption>
 					</a>
 				</li>
 				<!-- QUARTO PRODUTO -->
 				<li>
 					<a href="produto.html">
-						<img src="img/produtos/miniatura4.png">
-						<figcaption> Casaco roxo por R$ 69,99</figcaption>
+						<img src="img/produtos/bolsabranca.png">
+						<figcaption>Bolsa Diva - R$ 109,99</figcaption>
 					</a>
 				</li>
 				<!-- QUINTO PRODUTO -->
 				<li>
 					<a href="produto.html">
-						<img src="img/produtos/miniatura5.png">
-						<figcaption>Blusa básica azul por 29,90</figcaption>
+						<img src="img/produtos/botasverde.png">
+						<figcaption>Botas Verde - 119,90</figcaption>
 					</a>
 				</li>
 				<!--SEXTO E ULTIMO PRODUTO -->
 				<li>
 					<a href="produtos.html">
-						<img src="img/produtos/miniatura6.png">
-						<figcaption>Blusinha rosa por R$ 29,90</figcaption>
+						<img src="img/produtos/capaiphone.png">
+						<figcaption>Capa iPhone 11 - R$ 99,90</figcaption>
 					</a>
 				</li>
 			</ol>
@@ -164,15 +188,18 @@
 <!-- RODAPÉ -->
 <footer>
 	<div class="container">
-		<img src="img/logo-rodape.png" alt="Logo Mirror Fashion">
+		<a href="index.html">
+			<img src="img/logo-rodape.png" alt="Logo Mirror Fashion"></a>
 		<ul class="social">
-			<li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
-			<li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
 			<li><a href="http://plus.google.com/mirrorfashion">Google+</a></li>
+			<li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
+			<li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
 		</ul>
 	</div>
 </footer>
 <!-- FIM DO RODAPÉ -->
 
+<!-- Referenciando o arquivo JS no index.html -->
+<script src="js/home.js"> </script>
 </body>
 </html>

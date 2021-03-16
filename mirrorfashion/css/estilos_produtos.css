@@ -64,13 +64,13 @@ body {
 
 /* MENU DOS DEPARTAMENTOS */
 
-.busca input {
-	border-radius: 5px; /* deixar a caixinha arredondada*/
-	vertical-align: middle;
-}
 .busca input [type=search] {
 	width: 170px;
 
+}
+
+input{
+	font: 1em sans-serif;
 }
 
 .destaque {
@@ -103,7 +103,7 @@ body {
 .menu-departamentos {
 	clear: left;
 	margin-top: 5px;
-	padding-bottom: 10px;
+	padding-bottom: 30px;
 }
 
 .menu-departamentos li {
