@@ -190,10 +190,12 @@ label {
 }
 
 #homem{
-	margin-left: 100px;
+	margin-left: 170px;
 }
 
-#end{
+#log{
+	margin-right: 5px;
+	margin-left: 5px;
 	width: 580px;
 }
 
