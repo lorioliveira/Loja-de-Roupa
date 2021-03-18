@@ -56,11 +56,6 @@ body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.container {
-	margin: 0 auto;
-  	margin-top: 0px;
-	width: 940px;
-}
 
 /* MENU DOS DEPARTAMENTOS */
 
@@ -103,7 +98,6 @@ input{
 .menu-departamentos {
 	clear: left;
 	margin-top: 5px;
-	padding-bottom: 30px;
 }
 
 .menu-departamentos li {
@@ -144,7 +138,6 @@ opacity: 0;
 /*FIM DAS ALTERAÇÕES */
 
 
-
 /*PRODUTOS */
 
 /* título */
@@ -176,7 +169,7 @@ opacity: 0;
 	transform: scale(1.2) rotate(1deg);
 /* Quando passar o mouse, aumenta o elemento em 20%, como se fosse um ZOOM*/
 	/*transform: scale(1.2) rotate(-1deg); /*rotaciona em 2 graus sentido anti-horário*/
-	font-family: "Lucida Sans Unicode", "Lucida Grande";
+	/*font-family: "Lucida ans Unicode", "Lucida Grande";
 	text-decoration-style: double; */
 }
 
@@ -194,6 +187,24 @@ opacity: 0;
 	display: inline-block;
 }
 
+
+ol {
+	text-align: center;
+	font-size: 15px;
+}
+
+section img {
+	width: 180px;
+	height: 239px;
+	vertical-align: all;
+
+}
+
+.painel figcaption{
+	width: 180px;
+	font-size: 16px;
+	padding-bottom: 5px;
+}
 
 /* RODAPÉ */
 

@@ -159,11 +159,12 @@ label {
 
 .button {
     /* Para posicionar os botões para a mesma posição dos campos de texto */
-    padding-left: 20px; /* mesmo tamanho que os elementos do tipo label */
+    padding-left: 25px; /* mesmo tamanho que os elementos do tipo label */
+
 
     /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels
      e os seus campos de texto*/
-    margin-left: 14em;
+    margin-left: 13em;
 }
 
 

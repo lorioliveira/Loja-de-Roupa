@@ -199,9 +199,7 @@ opacity: 0.4;
 .painel li {
 	display: inline-block;
 	vertical-align: top;
-	width: 160px;
-	margin: 20px;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	transition: 0.7s;
 }
 
@@ -212,12 +210,12 @@ opacity: 0.4;
 	/*transition: box-shadow 0.7s;*/
 /* faz com que o fundo fique branco quando passar o mouse por cima do produto*/
 	/*background-color: rgb(255,255,255);*/
-	box-shadow: 0 0 10px #A6A6A6;
+	/*box-shadow: 0 0 10px #A6A6A6;*/
 		/*transition: 0.7s;
 /* Quando passar o mouse, aumenta o elemento em 20%, como se fosse um ZOOM*/
 	/*transform: scale(1.2) rotate(-1deg); /*rotaciona em 2 graus sentido anti-horário*/
 	font-family: "Lucida Sans Unicode", "Lucida Grande";
-	text-decoration-style: double;
+	/*text-decoration-style: double;*/
 
 }
 
@@ -255,6 +253,17 @@ opacity: 0.4;
 	background: linear-gradient(#dcdcf5, #f4bebe);
 }
 
+
+section li img {
+	width: 180px;
+	margin: 5px;
+
+}
+
+.painel figcaption{
+	width: 180px;
+	font-size: 16px;
+}
 
 /* RODAPÉ */
 
