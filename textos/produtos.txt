@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Mirror Fashion</title>
+	<link rel="stylesheet" href="css/reset.css">
+
+	 	 <link rel="stylesheet" type="text/css" href="css/estilos_2.css"> 
+	 <link rel="stylesheet" type="text/css" href="css/estilos_produtos.css">
+
+	<!-- <link rel="stylesheet" href="css/mobile_sobre.css" media="(min-width: 320px)"> -->
+	<meta charset="utf-8">
+</head>
+	<header class="container">
+		<h1><a href="index.html"><img src="img/logo.png" alt="Mirror Fashion"></a></h1>
+		<p class="sacola"><a href=""> Nenhum item na sacola</a></p>
+
+		<nav class="menu-opcoes" class="links">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="produtos.html">Produtos</a></li>
+				<li><a href="sobre.html">Sobre</a></li>
+				<li><a href="">Cartão Fidelidade</a></li>
+				<li><a href="index-2.html">Sua Conta</a></li>
+				<li><a href="">Lista de Desejos</a></li>
+			</br>
+			</ul>		
+		</nav>
+	</header>
+<body>
+	<!-- CONTAINER - DESTAQUE - PARTE PRINCIPAL-->
+	<div class="container destaque">
+		<!-- SEÇÃO DE BUSCA -->
+			<section class="busca">
+				<h2>Busca</h2>
+					<form>
+						<input type="search">
+						<input type="image" src="img/busca.png" href="" >
+					</form>
+			</section> 
+			<!--	FiM DA SEÇÃO BUSCA -->
+
+		<!--Seção dos Departamentos -->
+			<section class="menu-departamentos">
+				<h2 style="margin-left: 5px;"> Departamentos</h2>
+					<nav>
+							<li>
+								<a href="#">Blusas / Camisas</a>
+								<ul>
+									<li><a href="">Manga Comprida</a></li>
+									<li><a href="https://nubank.com.br/">Manga Curta</a></li>
+									<li><a href="">Camisa Social</a></li>
+									<li><a href="https://blogdoiphone.com/">Camisa Casual</a></li>
+								</ul>
+							</li>
+							<li><a href="">Calças</a></li>
+							<li><a href="https://www.google.com.br/">Saias</a></li>
+							<li><a href="">Vestidos</a></li>
+							<li><a href="">Sapatos</a></li>
+							<li><a href="https://www.climatempo.com.br/previsao-do-tempo/cidade/494/mogidascruzes-sp">Bolsas / Carteiras</a></li>
+							<li><a href="">Acessórios</a></li>
+					</nav>
+			</section> 
+			<!-- FIM DA SEÇÃO DEPARTAMENTOS -->
+
+	<!-- LISTA DOS PRODUTOS  -->
+	<h2 id="nossos_produtos">Nossos produtos</h2>
+	
+		<!-- Os paineis de novidades e mais vendidos entrarão aqui -->
+		<section class="painel produtos">
+			<div>
+				<!-- PRIMEIRO PRODUTO -->
+				<li>
+					<a href="produto.html">
+						<img src="img/produtos/blusaamarela.png">
+						<figcaption>Camisa Amarela - R$ 29,90</figcaption>
+					</a>
+				</li>
+				<!--SEGUNDO PRODUTO -->
+				<li>
+					<a href="produto.html">
+						<!--<img src="img/produtos/miniatura1.png"> -->
+						<img src="img/produtos/camisacolorida.png">
+						<figcaption> Camisa Draw - R$ 49,90</figcaption>
+					</a>
+				</li>
+				<!--TERCEIRO PRODUTO -->
+				<li>
+					<a href="produto.html">
+						<img src="img/produtos/blusa_branca.png">
+						<figcaption>Blusa Branca - R$ 38,99 </figcaption>
+					</a>
+				</li>
+				<!-- QUARTO PRODUTO -->
+				<li>
+					<a href="produto.html">
+						<img src="img/produtos/vestidoazul.png">
+						<figcaption> Vestido Elegance - R$ 169,99</figcaption>
+					</a>
+				</li>
+				<!-- QUINTO PRODUTO -->
+				<li>
+					<a href="produto.html">
+						<img src="img/produtos/vestidopreto.png">
+						<figcaption>Vestido Basic Preto - 59,90</figcaption>
+					</a>
+				</li>
+				<!--SEXTO E ULTIMO PRODUTO -->
+				<li>
+					<a href="produtos.html">
+						<img src="img/produtos/crocsamarelo.png">
+						<figcaption>Calçado Crocs - R$ 49,90</figcaption>
+					</a>
+				</li>
+			</div>
+		</section>
+		<section class="painel produtos">
+			
+			<ol>
+				<!-- PRIMEIRO PRODUTO -->
+				<li>
+					<a href="produto.html">
+						<img src="img/produtos/calcapretoebranco.png">
+						<figcaption> Calça B&W - R$ 129,90</figcaption>
+					</a>
+				</li>
+				<!--SEGUNDO PRODUTO -->
+				<li>
+					<a href="produto.html">
+						<img src="img/produtos/arcoiris.png">
+						<figcaption> Casaco Rainbow - R$ 89,90</figcaption>
+					</a>
+				</li>
+				<!--TERCEIRO PRODUTO -->
+				<li>
+					<a href="produto.html">
+						<img src="img/produtos/cinto.png">
+						<figcaption>Cinto Preto - R$ 38,99 </figcaption>
+					</a>
+				</li>
+				<!-- QUARTO PRODUTO -->
+				<li>
+					<a href="produto.html">
+						<img src="img/produtos/bolsabranca.png">
+						<figcaption> Bolsa Diva - R$ 109,99</figcaption>
+					</a>
+				</li>
+				<!-- QUINTO PRODUTO -->
+				<li>
+					<a href="produto.html">
+						<img src="img/produtos/botasverde.png">
+						<figcaption>Bota Verde - 119,90</figcaption>
+					</a>
+				</li>
+				<!--SEXTO E ULTIMO PRODUTO -->
+				<li>
+					<a href="produtos.html">
+						<img src="img/produtos/calcalisa.png">
+						<figcaption>Calça Basic Preta - R$ 79,90</figcaption>
+					</a>
+				</li>
+			</ol>
+			
+		</section>
+	
+
+
+<!-- RODAPÉ -->
+<footer>
+	<div class="container">
+		<a href="index.html">
+			<img src="img/logo-rodape.png" alt="Logo Mirror Fashion"></a>
+		<ul class="social">
+			<li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
+			<li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
+			<li><a href="http://plus.google.com/mirrorfashion">Google+</a></li>
+		</ul>
+	</div>
+</footer>
+<!-- FIM DO RODAPÉ -->
+
+</body>
+</html>
