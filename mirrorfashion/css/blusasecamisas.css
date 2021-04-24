@@ -35,7 +35,7 @@ header {
 }
 
 .menu-opcoes a {
-	color: #003366;
+	/*color: #003366;*/
 	text-decoration:none; 
 }
 
@@ -48,7 +48,6 @@ header {
 	color: #007dc6;
 	text-decoration:none; 
 }
-
 /* */
 
 body {
