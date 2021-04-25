@@ -321,8 +321,8 @@ max-width:*/
 /*botão de comprar*/
 .comprar {
 	background: #91bd3c;
-	border: none;
-	color: #333;
+	/*border: none;*/
+		color: #333;
 	font-size: 1.4em;
 	text-transform: uppercase;
 	box-shadow: 0 1px 3px #777;
