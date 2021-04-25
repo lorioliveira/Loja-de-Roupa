@@ -180,6 +180,11 @@ opacity: 0.4;
 	padding-right: 3px;
 }
 
+/* COR QUE FICA QUANDO PASSA MOUSE ENCIMA DOS LINKS DOS DEPARTAMENTOS*/
+.menu-departamentos a:hover{
+	color: #0C8453
+}
+
 /*FIM DAS ALTERAÇÕES */
 
 
@@ -299,7 +304,9 @@ max-width:*/
 .produto img {
 	margin-left: 460px;
 	margin-top: 150px;
+	/*width: 300px;*/
 	width: 300px;
+	height: 340px;
 }
 
 .produto h1 {

@@ -135,6 +135,11 @@ input{
 	/*padding-right: 500px;*/
 	opacity: 0;
 }
+
+/* COR QUE FICA QUANDO PASSA MOUSE ENCIMA DOS LINKS DOS DEPARTAMENTOS*/
+.menu-departamentos a:hover{
+	color: #0C8453
+}
 /*FIM DAS ALTERAÇÕES */
 
 

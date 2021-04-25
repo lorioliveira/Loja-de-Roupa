@@ -97,6 +97,10 @@ body {
 	text-decoration: none;
 }
 
+.menu-departamentos a:hover{
+	color: #0C8453
+}
+
 /*ADICIONANDO ESTILO - COMO OS LINKS SE COMPORTAM NO MENU DOS DEPARTAMENTOS */
 .menu-departamentos li ul {
 	display: none;
@@ -207,7 +211,6 @@ a{
 
 a:hover {
 	color: #BE61FF;
-	text-decoration:none;
 }
 
 
