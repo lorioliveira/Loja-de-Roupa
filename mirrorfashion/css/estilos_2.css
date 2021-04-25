@@ -54,7 +54,8 @@ header {
 body {
 	color: #333333;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	
+	margin: 0 auto;
+  	margin-top: 0px;	
 }
 
 .container {
@@ -125,93 +126,16 @@ opacity: 0.4;
 }
 
 #welcome{
-	width: 500px;
-	height: 300px;
-	margin-left: 120px;
-  	margin-bottom: 5px;
+	width: 700px;
+	height: 400px;
+	/*margin-left: 120px;*/
+	/*border-radius: 40%;*/
+  	/*margin-bottom: 5px;*/
 
 }
 /*FIM DAS ALTERAÇÕES DO MENU DE DEPARTAMENTOS*/
 
 
-/* PARTE PRINCIPAL - FORMULARIO */
-.formulario{
-
-    /* Apenas para centralizar o form na página */
-  	margin-left: 245px;
-  	margin-bottom: 5px;
-    width: 700px;
-    /* Para ver as bordas do formulário */
-    padding: 2em;
-    border: 1px solid #696969;
-    border-radius: 0.5em;
-}
-form div + div {
-	margin-top: 2em;
-}
-
-input{
-	font: 1em sans-serif;
-}
-
-label {
-    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas - area*/
-    /*display: inline-block;*/
-    width: 90px;
-    text-align: center;
-}
-
-.button {
-    /* Para posicionar os botões para a mesma posição dos campos de texto */
-    padding-left: 25px; /* mesmo tamanho que os elementos do tipo label */
-
-
-    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels
-     e os seus campos de texto*/
-    margin-left: 13em;
-}
-
-
-#nome{
-	/* tamanho da caixa de texto */
-	width: 350px;
-}
-
-#CPF{
-	/* tamanho da caixa de texto */
-	width: 120px;
-	text-align: center;
-}
-
-#email{
-	/* tamanho da caixa de texto */
-	width: 195px;
-}
-
-#CEP{
-	margin: 5.1px;
-	width: 99px;
-	text-align: center;
-}
-
-#homem{
-	margin-left: 170px;
-}
-
-#log{
-	margin-right: 5px;
-	margin-left: 5px;
-	width: 580px;
-}
-
-a{
-	text-decoration: none;
-	color: #003366;
-}
-
-a:hover {
-	color: #BE61FF;
-}
 
 
 /* RODAPÉ */

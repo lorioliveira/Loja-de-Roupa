@@ -142,12 +142,18 @@ opacity: 0;
 }
 /*FIM DAS ALTERAÇÕES */
 
+/*------------------------------------------------------------*/
+
 
 /*PRODUTOS */
 
 /* título */
 #nossos_produtos {
 	text-align: center;
+}
+
+.lista_produtos{
+	position: relative;
 }
 
 .painel {
@@ -192,6 +198,11 @@ opacity: 0;
 	display: inline-block;
 }
 
+.produtos img{
+	width: 200px;
+	height: 250px;
+}
+
 
 ol {
 	text-align: center;
@@ -206,10 +217,36 @@ section img {
 }
 
 .painel figcaption{
-	width: 180px;
-	font-size: 16px;
+	width: 190px;
+	height: auto;
+	font-size: 15px;
+	/*padding-bottom: 5px;*/
+	/*font-weight: bold;*/
+
+}
+
+#paginas{
+	border: 1px solid ##FEFCFC;
+	float: right;
+	/*width: 200px;*/
+}
+
+#paginas a:hover{
+	color: #32F712;
+}
+
+table{
 	padding-bottom: 5px;
 }
+
+tr {
+	text-align: center;
+	width: 200px;
+	margin-top: 20px;
+}
+
+/* ----------------------------------------------------------------*/
+
 
 /* RODAPÉ */
 
