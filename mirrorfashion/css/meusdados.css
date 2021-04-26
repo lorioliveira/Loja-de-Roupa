@@ -162,8 +162,8 @@ label {
     /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas - area*/
     /*display: inline-block;*/
     width: 90px;
-    text-align: center;
-    padding: 3px;
+    /*text-align: center;*/
+    padding: 3.1px;
 }
 
 #nome{
@@ -230,7 +230,7 @@ label {
 }
 
 
-
+/*TEXTO DOS BOTÕES, DO MENU E DO MENU NA PARTE SUPERIOR*/
 a{
 	text-decoration: none;
 	color: #003366;
@@ -238,6 +238,10 @@ a{
 
 a:hover {
 	color: #BE61FF;
+}
+/*TAMANHO DA FONTE DOS BOTÕES*/
+button a{
+	font-size: 14px;
 }
 
 
