@@ -6,7 +6,7 @@
 	<title>Mirror Fashion</title>
 	<!--<link rel="stylesheet" href="css/reset.css">-->
 	
-	 <link rel="stylesheet" type="text/css" href="css/meusdados.css"> 
+	 <link rel="stylesheet" type="text/css" href="css/suaconta.css"> 
 
 	<!-- <link rel="stylesheet" href="css/mobile_sobre.css" media="(min-width: 320px)"> -->
 	<meta charset="utf-8">
@@ -20,8 +20,6 @@
 				<li><a href="index.html">Home</a></li>
 				<li><a href="produtos.html">Produtos</a></li>
 				<li><a href="sobre.html">Sobre</a></li>
-				<!-- CARTÃO FIDELIDADE SERÁ DENTRO DE FORMA DE PAGAMENTO
-					<li><a href="">Cartão Fidelidade</a></li> -->
 				<li><a href="suaconta.html">Sua Conta</a></li>
 			
 			</ul>		
@@ -42,45 +40,50 @@
 
 		<!--Seção do MENU SUA CONTA -->
 			<section class="menu-departamentos">
-				<h2 style="margin-left: 5px;"> Departamentos</h2>
+				<h2 style="margin-left: 5px;">Sua Conta</h2>
 					<nav>
-							<li>
-								<a href="../mirrorfashion/blusas.html">Blusas</a>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="meusdados.html">Meus Dados</a>
 								<ul>
-									<li><a href="../mirrorfashion/mangacomprida.html">Manga Comprida</a></li>
-									<li><a href="../mirrorfashion/mangacurta.html">Manga Curta</a></li>
+									<li><a href="meusenderecos.html">Meus Endereços</a></li>
+									<li><a href="meusdados.html">Meus Cartões e Cupons</a></li>
+									<li><a href="meusdados.html">Alterar Senha</a></li>
 								</ul>
 							</li>
 							
-							<li><a href="../mirrorfashion/calcas.html">Calças</a></li>
-							
-							<li><a href="../mirrorfashion/vestidos.html">Vestidos</a></li>
-							<li><a href="../mirrorfashion/sapatos.html">Sapatos</a></li>
-							
-							<li><a href="../mirrorfashion/acessorios.html">Acessórios</a></li>
+							<li><a href="">Meus Pedidos</a></li>
+							<li><a href="">Lista de Desejos</a></li> 
+							<li onclick="sair()"> <a href="..\mirrorfashion\index.html">Sair</a>
+							<!-- ALERTA QUANDO SAIR DA CONTA -->
+					    <script>
+					    	function sair(){
+					    		alert("Você saiu com sucesso! Volte em breve!");
+					    	}
+					    </script></li>
 					</nav>
-			</section>  
+			</section> 
 			<!-- FIM DA SEÇÃO SUA CONTA -->
 
 
 		<!-- DADOS PARA LOGAR NA CONTA  -->
-		<form class="formulario" action="..\mirrorfashion\tela_salvar.html" method="post">
-			<!-- <div>
-		        
-		    <label for="CPF">CPF: </label> <input type="CPF" id="CPF"  class="form-control cpf-mask" placeholder="000.000.000-00"/> 
-		    </div> -->
-
+		<form class="formulario" action="..\mirrorfashion\index.html" method="post">
 			<div>
 				<label for="email">E-mail: </label> <input type="email" id="email"name="e-mail" placeholder="digite seu e-mail aqui"/> 
 				<!-- <label for="senha">Senha: </label> <input type="senha" id="senha" /> -->
-				Senha: <input type="password" name="senha" id="senha" value="" accesskey="S" />
+				<label for="email">Senha: </label> <input type="password" name="senha" id="senha" value="" accesskey="S" />
 			</div>
 
-		    <div class="button">
-		    	<button type="submit"><a href="..\mirrorfashion\tela_entrar.html"> Entrar </button> 
-		    	<button type="submit" id="novaconta"><a href="..\mirrorfashion\nova_conta.html"> Criar nova conta </button>
-		    </a></div>
-		    
+		    <div class="button_suaconta">
+		    	<button type="submit" onclick="logar()"><a href="index.html"> Entrar </a></button>
+		    	<button type="submit" id="novaconta"><a href="..\mirrorfashion\nova_conta.html"> Criar nova conta </a></button>
+		    </div>
+		    <!-- ALERTA QUANDO LOGAR -->
+		    <script>
+		    	function logar(){
+		    		alert("Logada(o) com sucesso!");
+		    	}
+		    </script>
+		    <!-- FIM DO ALERTA -->
 		</form>
 	</div>
 	<!-- FIM DOS DADOS DE LOGIN -->
