@@ -1,3 +1,74 @@
+/// CODIGO PARA LOGIN - CONTEM CPF - SENHA - EMAIL E BOTOES ////
+
+<!-- CPF -->
+			<!-- <div>
+			    <label for="CPF">CPF: </label>
+			    	<input type="CPF" id="CPF"  class="form-control cpf-mask" placeholder="000.000.000-00"/> 
+			    
+				<label for="email">E-mail: </label> <input type="email" id="email" /> 
+			</div> -->
+
+			<div>
+				<label for="senha">Senha: </label> <input type="senha" id="senha" placeholder="*******" />
+				<label for="confsenha">Confirmar senha: </label> <input type="confsenha" id="confsenha" placeholder="*******" />
+			</div>
+
+			<!-- BOTÕES -->
+		    <div class="button">
+		    	<button type="submit"><a href="..\mirrorfashion\tela_entrar.html"> Entrar </button> 
+		    	<button type="submit" id="novaconta"><a href="..\mirrorfashion\nova_conta.html"> Criar nova conta </button>
+		    </a></div>
+
+
+////////////// FORMULARIO DE SAIR DA CONTA //////////
+
+<!-- DADOS -->
+		<div class="formulario">
+			
+			<!-- <img id="welcome" src="..\mirrorfashion\img\.png"> -->
+			<center>Você saiu da sua conta</center><br> 
+			<div class="button">
+			    <button type="submit"><a href="..\mirrorfashion\index.html">Voltar para Home</a> </button> 
+			    <button type="submit" id="novaconta"><a href="..\mirrorfashion\suaconta.html"> Entrar Novamente</a></button></div>
+		</div>
+		<!-- FIM DOS DADOS -->
+
+
+
+////////////////   MENU PARA LOGIN_CLIENTE ////////////////
+<section class="menu-departamentos">
+				<h2 style="margin-left: 5px;">Sua Conta</h2>
+					<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="produtos.html">Produtos</a></li>
+				<li><a href="sobre.html">Sobre</a></li>
+				<li><a href="">Cartão Fidelidade</a></li>
+				<li><a href="suaconta.html">Sua Conta</a></li>
+				<li><a href="">Lista de Desejos</a></li>
+			</br>
+			</ul>
+			</section> 		 
+
+
+
+/////////////////////PARA LINKAR AS PAGINAS DO PRODUTOS///////////////// 
+<!-- PARA LINKAR AS PÁGINAS DE PRODUTOS -->
+						<div id="paginas">
+							<!-- TABLE: tabela -->
+								<table>
+									<!-- TR: coluna -->
+									<tr> 
+										<!-- TD: linha -->
+										<td><a href="produtos.html">1</td></a>
+										<!-- seria pra ir página 2 -->
+										<td><a href="produtos2.html">></td></a>
+									</tr>
+								</table>
+						</div>
+						<!-- FIM DAS PÁGINAS  --> 
+
+
+//////////////   LINKS DOS PRODUTOS ////////////// 
 <!-- COLUNA DOIS -->
 
 		<section class="painel produtos">
@@ -140,3 +211,5 @@
 			</div>
 		</section>
 	
+
+
