@@ -1,0 +1,105 @@
+<!-- CONTAINER - DESTAQUE - PARTE PRINCIPAL-->
+	<div class="container destaque">
+		
+		<form class="formulario" action="..\mirrorfashion\tela_salvar.html" method="post">
+			
+			<div>
+				<!-- NOME / CPF / EMAIL-->
+		        <label for="nome">Nome: </label> <input type="text" id="nome" />
+		        <!-- <label for="sobrenome">Sobrenome: </label> <input type="text" id="sobrenome" /> -->
+		    	<label for="CPF">CPF: </label> <input type="CPF" id="CPF"  class="form-control cpf-mask" placeholder="000.000.000-00"/> 
+		    	<label for="dt_nascimento">Data de Nascimento: </label> <input type="date">
+		    	
+		    
+		    <!-- OPÇÕES DE GENERO (MASC/FEM)-->
+		      <input type="radio" id="homem" name="genero" value="Masculino"> <label for="Masculino">Masc</label>
+			  <input type="radio" id="mulher" name="genero" value="Feminino"> <label for="Feminino">Fem</label>
+		    </div>
+
+		    <!-- SENHA - CONFIRMAR SENHA -->
+			<div>
+				<label for="email">E-mail: </label> <input type="email" id="email"name="e-mail" placeholder="digite seu e-mail aqui"/> 
+				<label for="senha">Senha: </label> <input type="password" id="senha"/>
+				<label for="confsenha">Confirmar Senha: </label> <input type="password" id="senha"/>
+
+			</div>
+
+			<!-- A SEQUENCIA CERTA É: CEP > LOGRADOURO > NUMERO > COMPLEMENTO > BAIRRO > PAÍS > ESTADO : CIDADE  -->
+		    
+
+		     	<!-- CEP -->
+			    <div>
+			        <label class="CEP" for="CEP">CEP:</label>
+			        	<input type="text" id="CEP" class="form-control cep-mask" placeholder="00000-000" />
+			    
+		        <label for="Logradouro" id="logradouro">Logradouro:</label> 
+		        	<input type="text" name="logradouro" id="logradouro"/>
+
+		        <label for="Numero" id="numero">Nº</label> 
+		        	<input type="text" name="numero" id="numero" />
+
+		        
+			        <div>
+			        <!-- Estado -->
+			        	<label for="Estado"> Estado: </label>
+							<select id="estado" name="estado" onchange="buscaCidades(this.value)"> 
+						   <option value="">Selecione Estado</option>
+						    <option value="AC">Acre</option>
+						    <option value="AL">Alagoas</option>
+						    <option value="AP">Amapá</option>
+						    <option value="AM">Amazonas</option>
+						    <option value="BA">Bahia</option>
+						    <option value="CE">Ceará</option>
+						    <option value="DF">Distrito Federal</option>
+						    <option value="ES">Espírito Santo</option>
+						    <option value="GO">Goiás</option>
+						    <option value="MA">Maranhão</option>
+						    <option value="MT">Mato Grosso</option>
+						    <option value="MS">Mato Grosso do Sul</option>
+						    <option value="MG">Minas Gerais</option>
+						    <option value="PA">Pará</option>
+						    <option value="PB">Paraíba</option>
+						    <option value="PR">Paraná</option>
+						    <option value="PE">Pernambuco</option>
+						    <option value="PI">Piauí</option>
+						    <option value="RJ">Rio de Janeiro</option>
+						    <option value="RN">Rio Grande do Norte</option>
+						    <option value="RS">Rio Grande do Sul</option>
+						    <option value="RO">Rondônia</option>
+						    <option value="RR">Roraima</option>
+						    <option value="SC">Santa Catarina</option>
+						    <option value="SP">São Paulo</option>
+						    <option value="SE">Sergipe</option>
+						    <option value="TO">Tocantins</option>
+						    <option value="EX">Estrangeiro</option>
+						</select>
+
+						<label for="Cidade"> Cidade: </label>
+						<select id="cidade">
+							<option value="">--</option>
+							<script type="text/javascript" src="js/estados-cidades.js">
+							</script>
+						</select>
+					</div>
+				</div>
+			</br>
+		    
+		    
+
+		    <!-- BOTÕES DE VOLTAR PARA TELA DE LOGIN OU CIRAR NOVA CONTA -->
+		    <div class="button">
+		    	<button type="submit"><a href="..\mirrorfashion\suaconta.html">Voltar </a> </button>
+		    	<button type="submit" onclick="entrar()"> <a href="..\mirrorfashion\suaconta.html">Criar conta </a></button>
+		    </div>
+
+		    <!-- ALERTA QUANDO CRIAR CONTA -->
+		    <script>
+		    	function entrar(){
+		    		alert("Conta criada com sucesso!");
+		    	}
+		    </script>
+		    <!-- FIM DO ALERTA -->
+		    
+		</form>
+	</div>
+	<!-- FIM DOS DADOS -->
