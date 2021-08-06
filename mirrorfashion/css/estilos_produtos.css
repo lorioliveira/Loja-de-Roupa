@@ -64,9 +64,6 @@ body {
 
 }
 
-input{
-	font: 1em sans-serif;
-}
 
 .destaque {
 	margin-top: 10px;
@@ -98,13 +95,17 @@ input{
 .menu-departamentos {
 	clear: left;
 	margin-top: 5px;
+	padding-bottom: 1200px;
 }
 
 .menu-departamentos li {
 	list-style-type: none; /* faz com que não apareça o símbolo que mostra que é uma lista sabe */
 	background-color: white;
 	margin-bottom: 1px;
-	padding: 5px 5px;
+	padding: 5px 3px;
+	border: 1px 0px 0px 2px solid #dcdcdc;
+	margin: 1px 2px 0px 2px;
+	border-radius: 3px;
 
 }
 

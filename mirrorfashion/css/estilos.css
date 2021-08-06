@@ -91,12 +91,12 @@ body {
 }
 
 .busca input [type=search] {
-	width: 170px;
+	width: 150px;
 }
 
-input{
+/* input{
 	font: 1em sans-serif;
-}
+} */
 
 .destaque {
 	margin-top: 10px;
@@ -104,7 +104,7 @@ input{
 .busca {
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
-
+	margin-right: 10px;
 }
 
 .busca,
@@ -113,7 +113,6 @@ input{
 	font-weight: bold;
 	text-transform: capitalize lowercase;
 	float: left;
-	margin-right: 10px;
 	width: 230px;
 
 }
@@ -128,14 +127,17 @@ input{
 .menu-departamentos {
 	clear: left;
 	margin-top: 5px;
-	padding-bottom: 100px;
+	padding-bottom: 175px;
 }
 
 .menu-departamentos li {
 	list-style-type: none; /* faz com que não apareça o símbolo que mostra que é uma lista sabe */
 	background-color: white;
 	margin-bottom: 1px;
-	padding: 5px 5px;
+	padding: 5px 3px;
+	border: 1px 0px 0px 2px solid #dcdcdc;
+	margin: 1px 2px 0px 2px;
+	border-radius: 3px;
 
 }
 
@@ -146,30 +148,24 @@ input{
 
 /* COR QUE FICA QUANDO PASSA MOUSE ENCIMA DOS LINKS DOS DEPARTAMENTOS*/
 .menu-departamentos a:hover{
-	color: #0C8453
+	color: #0C8453;
 }
 
 /*ADICIONANDO ESTILO - COMO OS LINKS SE COMPORTAM NO MENU DOS DEPARTAMENTOS */
-.menu-departamentos li ul {
+ .menu-departamentos li ul {
 	display: none;
 	margin-top: 3px;
-	margin-left: -10px;
-}
+	
+} 
 .menu-departamentos li:hover ul {
 	display: block;
 	position: absolute;
-
-	background-color: #FFFFFF;
+	background-color: #ffffff;
+	/* border: solid 1px; */
 }
 
 .menu-departamentos ul ul li {
 	background-color: #dcdcdc;
-}
-
-.painel h2:before {
-content: '\27BE'; /* muda o icone que fica ao lado do titulo*/
-padding-right: 50px;
-opacity: 0.4;
 }
 
 .menu-departamentos ul li ul {
@@ -184,7 +180,6 @@ opacity: 0.4;
 }
 .menu-departamentos li li a:before {
 	content: '\2741';
-	padding-right: 3px;
 }
 
 /*FIM DAS ALTERAÇÕES PRINCIPAIS DO MENU */
@@ -192,6 +187,12 @@ opacity: 0.4;
 
 
 /*PAINEIS - NOVIDADES E MAIS VENDIDOS */
+
+.painel h2:before {
+content: '\27BE'; /* muda o icone que fica ao lado do titulo*/
+padding-right: 50px;
+opacity: 0.4;
+}
 
 .painel {
 	margin: 10px 0;
@@ -280,33 +281,36 @@ footer {
 
 footer .container {
 	position: relative;
+	margin-bottom: 20px;
 }
 
 .social {
-	position: absolute;
 	top: 20px;
-	right: 0;
+	margin-left: 650px;
+	margin-top: 1.5px;
 	vertical-align: middle;
 }
 
 .social li {
-	float: right;
-	margin-left: 25px;
-	margin-top: -21px;
+	position: relative;
+	float: right; 
+	margin-top: -29px;
 	list-style-type: none;
+	margin-right: 20px;
+	text-align: center;
 }
 
 .social a {
 	/*tamanho do imagem */
-	height: 32px;
+	height: 33px;
 	width: 32px;
-
+/* 
 	/*image replacement */
 	display: block;
-	text-indent: -9999px;
+	text-indent: -9999px;  
 }
 
-.social a[href*="facebook.com"] {
+ .social a[href*="facebook.com"] {
 	background-image: url(../img/face.png);
 }
 
@@ -318,16 +322,20 @@ footer .container {
 	background-image: url(../img/gplus.png);
 }
 
+
+/* NÃO MEXER */
 #copy{
 	list-style-type: none;
 	text-align: center;
 	color: #fff;
-	margin-right: 250px;
-}
-/* CSS DOS JAVASCRIPT  - BOTÃO DE PLAY/PAUSE DOS BANNERS */
+	margin-top: -40px;
+} 
+/* ------------- */
 
+
+/* CSS DOS JAVASCRIPT  - BOTÃO DE PLAY/PAUSE DOS BANNERS */
 .destaque {
-position: relative;
+	position: relative;
 }
 .pause,
 .play {

@@ -127,14 +127,17 @@ input{
 .menu-departamentos {
 	clear: left;
 	margin-top: 5px;
+	padding-bottom: 10px;
 }
 
 .menu-departamentos li {
 	list-style-type: none; /* faz com que não apareça o símbolo que mostra que é uma lista sabe */
 	background-color: white;
 	margin-bottom: 1px;
-	padding: 5px 5px;
-
+	padding: 5px 3px;
+	border: 1px 0px 0px 2px solid #dcdcdc;
+	margin: 1px 2px 0px 2px;
+	border-radius: 3px;
 }
 
 .menu-departamentos a {
@@ -297,9 +300,9 @@ max-width:*/
 }
 
 .produto img {
-	margin-left: 460px;
+	margin-left: 580px;
 	margin-top: 150px;
-	width: 300px;
+	position: static;
 }
 
 .produto h1 {
@@ -340,20 +343,20 @@ max-width:*/
 }
 .cores label img {
 /* imagem se posiciona absolutamente à esquerda com relação ao .produto */
-	
+	position: static;
 	top: 0;
 	left: 0;
 }
 .cores label:after {
 /* as bolinhas coloridas tinham posição absoluta.
 não precisamos mais, basta flutuar uma do lado da outra */
-	position: sticky;
+	position: static;
 	float: left;
 }
 
 /*---------------------------------------------------------------------------------*/
 .cores label img {
-	max-width: 35%;
+	max-width: 18%;
 	max-height: 100%;
 	position: absolute;
 }
@@ -378,7 +381,6 @@ fieldset {
 #tamanho {
 	width: 190px;
 }
-
 
 /*----------------------------------------------------------------------*/
 /*Descricao*/

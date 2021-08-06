@@ -59,12 +59,8 @@ body {
 /* MENU DOS DEPARTAMENTOS */
 
 .busca input [type=search] {
-	width: 170px;
+	width: 150px;
 
-}
-
-input{
-	font: 1em sans-serif;
 }
 
 .destaque {
