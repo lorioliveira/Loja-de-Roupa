@@ -77,7 +77,7 @@ body {
 /* MENU DOS DEPARTAMENTOS */
 .menu-departamentos {
 	background-color: #dcdcdc;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	float: left;
 	width: 230px;
 	padding-bottom: 40px;
@@ -88,8 +88,8 @@ body {
 	list-style-type: none; /* faz com que não apareça o símbolo que mostra que é uma lista sabe */
 	background-color: white;
 	margin-bottom: 2px;
-	padding: 5px 5px;
-
+	padding: 2px 5px;
+	margin: 1px 4px 0px 3px;
 }
 
 .menu-departamentos a {
@@ -106,8 +106,7 @@ body {
 .menu-departamentos li:hover ul {
 	display: block;
 	position: absolute;
-
-	background-color: #FFFFFF;
+	background-color: #B5B5B5;
 }
 
 .menu-departamentos ul ul li {
@@ -312,11 +311,6 @@ header {
 
 /*  ---------------------------------------------------------------- */
 
-body {
-	color: #333333;
-	font-family: "Lucida Sans Unicode", "Lucida Grande";
-}
-
 .container {
 	margin: 0 auto;
   	margin-top: 0px;
@@ -325,9 +319,7 @@ body {
 }
 
 
-
 /*ADICIONANDO ESTILO - COMO OS LINKS SE COMPORTAM NO MENU DOS DEPARTAMENTOS */
 
 
 /*FIM DAS ALTERAÇÕES */
-

@@ -108,7 +108,7 @@ input{
 .busca,
 .menu-departamentos {
 	background-color: #dcdcdc;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	/*text-transform: capitalize lowercase;*/
 	float: left;
 	margin-right: 10px;
@@ -301,13 +301,21 @@ max-width:*/
 	width: 300px;
 }
 
+
+/* POSIÇÃO QUE A IMAGEM DO PRODUTO FICA ENTRE O MENU DOS DEPARTAMENTOS E OS DADOS COM COR, TAMANHO ETC */
 .produto img {
+	margin-left: 260px;
+	margin-top: 20px;
+	/*position: static;*/
+}
+
+/*.produto img {
 	margin-left: 460px;
 	margin-top: 150px;
-	/*width: 300px;*/
+	/*width: 300px;
 	width: 300px;
 	height: 340px;
-}
+}*/
 
 .produto h1 {
 	font-size: 1.8em;
@@ -360,7 +368,7 @@ não precisamos mais, basta flutuar uma do lado da outra */
 
 /*---------------------------------------------------------------------------------*/
 .cores label img {
-	max-width: 35%;
+	max-width: 30%;
 	max-height: 100%;
 	position: absolute;
 }

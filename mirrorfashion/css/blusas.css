@@ -1,4 +1,4 @@
-.sacola {
+/*.sacola {
 	background: url(../img/sacola_1.png) no-repeat top right;
 
 	font-size: 14px;
@@ -35,11 +35,11 @@ header {
 }
 
 .menu-opcoes a {
-	/*color: #003366;*/
+	/*color: #003366;
 	text-decoration:none; 
 }
 
-/*Adicionando estados nos links */
+/*Adicionando estados nos links 
 .menu-opcoes a:hover {
 	color: #007dc6;
 	text-decoration:none; 
@@ -48,7 +48,7 @@ header {
 	color: #007dc6;
 	text-decoration:none; 
 }
-/* */
+/* 
 
 body {
 	color: #333333;
@@ -56,7 +56,7 @@ body {
 }
 
 
-/* MENU DOS DEPARTAMENTOS */
+/* MENU DOS DEPARTAMENTOS 
 
 .busca input [type=search] {
 	width: 150px;
@@ -97,7 +97,7 @@ body {
 }
 
 .menu-departamentos li {
-	list-style-type: none; /* faz com que não apareça o símbolo que mostra que é uma lista sabe */
+	list-style-type: none; /* faz com que não apareça o símbolo que mostra que é uma lista sabe 
 	background-color: white;
 	margin-bottom: 1px;
 	padding: 5px 5px;
@@ -108,12 +108,11 @@ body {
 	text-decoration: none;
 }
 
-/* COR QUE FICA QUANDO PASSA MOUSE ENCIMA DOS LINKS DOS DEPARTAMENTOS*/
+/* COR QUE FICA QUANDO PASSA MOUSE ENCIMA DOS LINKS DOS DEPARTAMENTOS
 .menu-departamentos a:hover{
 	color: #0C8453
 }
-
-/*ADICIONANDO ESTILO - COMO OS LINKS SE COMPORTAM NO MENU DOS DEPARTAMENTOS */
+/*ADICIONANDO ESTILO - COMO OS LINKS SE COMPORTAM NO MENU DOS DEPARTAMENTOS 
 .menu-departamentos li ul {
 	display: none;
 	margin-top: 3px;
@@ -132,13 +131,13 @@ body {
 
 .painel h2:before {
 	content: '\273B';
-	/*padding-right: 500px;*/
+	/*padding-right: 500px;
 	opacity: 0;
 }
-/*FIM DAS ALTERAÇÕES */
+/*FIM DAS ALTERAÇÕES *
 
 
-/*PRODUTOS */
+/*PRODUTOS 
 
 #fotos{
 	margin-left: 100px;
@@ -157,22 +156,22 @@ body {
 
 
 .painel li:hover{
-	/* Faz com que mostre uma sombra por trás e que ela apareça suavemente*/
+	/* Faz com que mostre uma sombra por trás e que ela apareça suavemente*
 	/*box-shadow: 0 0 5px #333;
 	transition: box-shadow 0.7s;*/
-/* faz com que o fundo fique branco quando passar o mouse por cima do produto*/
+/* faz com que o fundo fique branco quando passar o mouse por cima do produto*
 	background-color: rgba(255,255,255,0.8);
 	
 	transition: 0.1s;
 	transform: scale(1.2) rotate(1deg);
-/* Quando passar o mouse, aumenta o elemento em 20%, como se fosse um ZOOM*/
-	/*transform: scale(1.2) rotate(-1deg); /*rotaciona em 2 graus sentido anti-horário*/
+/* Quando passar o mouse, aumenta o elemento em 20%, como se fosse um ZOOM*
+	/*transform: scale(1.2) rotate(-1deg); /*rotaciona em 2 graus sentido anti-horário*
 	/*font-family: "Lucida ans Unicode", "Lucida Grande";
-	text-decoration-style: double; */
+	text-decoration-style: double; *
 }
 
 .painel a {
-	/* nome dos produtos que sao linkados */
+	/* nome dos produtos que sao linkados *
 	color: #000;
 	font-size: 16px;
 	text-align: center; 
@@ -180,7 +179,7 @@ body {
 }
 
 .produtos {
-	/*margin-left: 30px;*/
+	/*margin-left: 30px;*
 	display: inline-block;
 }
 
@@ -201,7 +200,7 @@ section img {
 	padding-bottom: 5px;
 }
 
-/* RODAPÉ */
+/* RODAPÉ 
 
 footer {
 	background-image: url(../img/fundo-rodape.png);
@@ -228,11 +227,11 @@ footer .container {
 }
 
 .social a {
-	/*tamanho do imagem */
+	/*tamanho do imagem *
 	height: 32px;
 	width: 32px;
 
-	/*image replacement */
+	/*image replacement *
 	display: block;
 	text-indent: -9999px;
 }
@@ -254,4 +253,4 @@ footer .container {
 	text-align: center;
 	color: #fff;
 	margin-right: 250px;
-}
+}*/
