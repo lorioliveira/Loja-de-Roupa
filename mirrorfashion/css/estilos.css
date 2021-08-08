@@ -437,7 +437,7 @@ body {
 .menu-departamentos {
 	background-color: #dcdcdc;
 	/*font-weight: bold;*/
-	text-transform: capitalize lowercase;
+	/*text-transform: capitalize lowercase;*/
 	float: left;
 	margin-right: 10px;
 	width: 230px;
@@ -448,6 +448,7 @@ body {
 	clear: left;
 	margin-top: 4px;
 	padding-bottom: 280px;
+	margin-bottom: 10px;
 }
 
 
