@@ -6,7 +6,7 @@
 	font-size: 14px;
 	padding-right: 35px;
 	text-align: right;
-	width: 140px;
+	width: 59px;
 
     text-decoration: none;
 	position: absolute;
@@ -150,7 +150,7 @@ body {
 
 /* COR QUE FICA QUANDO PASSA MOUSE ENCIMA DOS LINKS DOS DEPARTAMENTOS*/
 .menu-departamentos a:hover{
-	color: #0C8453;
+	color: #3F0731;
 }
 
 /*ADICIONANDO ESTILO - COMO OS LINKS SE COMPORTAM NO MENU DOS DEPARTAMENTOS */
@@ -373,21 +373,6 @@ border-top: 15px solid transparent;
 
 
 
-
-.sacola {
-	background: url(../img/sacola_1.png) no-repeat top right;
-
-	font-size: 14px;
-	padding-right: 35px;
-	text-align: right;
-	width: 140px;
-
-	text-decoration: none;
-	position: absolute;
-	top: 0;
-	right: 0;
-}
-
 header {
 	position: relative;
 }
@@ -473,7 +458,7 @@ body {
 
 /* COR QUE FICA QUANDO PASSA MOUSE ENCIMA DOS LINKS DOS DEPARTAMENTOS*/
 .menu-departamentos a:hover{
-	color: #0C8453
+	color: #70146B
 }
 
 /*ADICIONANDO ESTILO - COMO OS LINKS DO MENU DE BLUSAS SE COMPORTAM NO MENU DOS DEPARTAMENTOS */

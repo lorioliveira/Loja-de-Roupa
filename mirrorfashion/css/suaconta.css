@@ -1,4 +1,4 @@
-s
+
 /*CÓDIGOS PARA TELA NOVA-CONTA, SUACONTA, TELA_SALVAR */
 
 
@@ -8,7 +8,7 @@ s
 	font-size: 14px;
 	padding-right: 35px;
 	text-align: right;
-	width: 140px;
+	width: 59px;
 
 	position: absolute;
 	text-decoration:none; 
@@ -78,11 +78,11 @@ body {
 /* MENU DOS DEPARTAMENTOS */
 .menu-departamentos {
 	background-color: #dcdcdc;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	float: left;
 	width: 230px;
 	padding-bottom: 40px;
-	margin-bottom: 5px;
+	margin-bottom: 20px;
 }
 
 .menu-departamentos li {
@@ -151,13 +151,14 @@ opacity: 0.4;
     border: 1px solid #696969;
     border-radius: 0.5em;
 }
-form div + div {
-	margin-top: 20px;
-}
+/*form div + div {
+	margin-top: 6px;
+}*/
 
 input{
 	font: 1em sans-serif;
 	margin-left: 5px;
+	margin-top: 4px;
 }
 
 /*TITULO DOS CAMPOS*/
@@ -194,11 +195,13 @@ label {
 	text-align: center;
 }
 
-
 #CEP{
 	margin: 5.1px;
 	width: 90px;
 	text-align: center;
+}
+#numero {
+	width: 35px;
 }
 
 #homem{
@@ -208,23 +211,27 @@ label {
 #logradouro{
 	/*margin-right: 5px;
 	margin-left: 5px;*/
-	width: 300px;
+	width: 323px;
 }
 #bairro{
-	width: 100px;
+	width: 180px;
+}
+#complemento{
+	width: 130px;
 }
 #estado{
-	width: 140px;
+	margin-top: 5px;
+	width: 150px;
 }
 #cidade{
-	width: 175px;
+	width: 190px;
+	margin-bottom: 10px;
 }
 
-
-
+/*BOTÕES DE VOLTAR/SALVAR */
 .button {
     /* Para posicionar os botões para a mesma posição dos campos de texto */
-    padding-left: 10em; /* mesmo tamanho que os elementos do tipo label */
+    padding-left: 50px; /* mesmo tamanho que os elementos do tipo label */
 
     /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels
      e os seus campos de texto*/
@@ -233,8 +240,8 @@ label {
 }
 
 .button_suaconta{
-	 margin-left: 200px;
-
+	margin-left: 200px;
+	margin-top: 20px;
 }
 
 /*TEXTO DOS BOTÕES, DO MENU E DO MENU NA PARTE SUPERIOR*/
@@ -306,7 +313,7 @@ footer .container {
 	font-size: 14px;
 	padding-right: 35px;
 	text-align: right;
-	width: 140px;
+	width: 59px;
 
 	position: absolute;
 	top: 0;

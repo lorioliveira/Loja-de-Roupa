@@ -8,7 +8,7 @@
 	font-size: 14px;
 	padding-right: 35px;
 	text-align: right;
-	width: 140px;
+	width: 59px;
 
 	position: absolute;
 	text-decoration:none; 
@@ -78,9 +78,9 @@ body {
 /* MENU DOS DEPARTAMENTOS */
 .menu-departamentos {
 	background-color: #dcdcdc;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	float: left;
-	width: 230px;
+	width: 215px;
 	padding-bottom: 40px;
 	margin-bottom: 5px;
 }
@@ -140,41 +140,45 @@ opacity: 0.4;
 .formulario{
 
     /* Apenas para centralizar o form na página */
-  	/*margin-left: 245px;*/
+  	margin-left: 220px;
+  	margin-right: -70px;
   	margin-bottom: 5px;
-    width: auto;
+    /*width: auto;*/
     /* Para ver as bordas do formulário */
     padding: 1em;
-   /*  border: 1px solid #616161;
-    border-radius: 0.5em; */
+    border: 1px solid #616161;
+    border-radius: 0.5em; 
 }
 form div {
 	/* margin-top: 20px; */
+	margin-bottom: 5px;
 }
 
 input{
 	/* font: 1em sans-serif; */
 	margin-left: auto;
 	height: 20px;
-	 border: 1px solid #AFA9A9;
-	 border-radius: 4px;
+	border: 1px solid #AFA9A9;
+	border-radius: 4px;
 }
 
 /* TABELA */
 .tabela{
-	border: 1px solid #FF0000;
+	border: 1px solid #AFA9A9;
+	text-align: center;
 }
 
 /*TITULO DOS CAMPOS*/
 label {
     /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas - area*/
     /* margin-right: 5px; */
-    font-size: 95%;
+    font-size: 90%;
+    /*margin-left: 10px;*/
 }
 
 #nome{
 	 /* tamanho da caixa de texto  */
-	width: 210px;
+	width: 180px;
 }
 
 #CPF{
@@ -185,19 +189,19 @@ label {
 
 #email{
 	/* tamanho da caixa de texto */
-	width: 250px;
-
+	width: 240px;
+	margin-top: 6px;
 }
-#senha{
+
+#senha, #confsenha{
 	width: 100px;
+	margin-top: 6px;
 	/* text-align: center; */
 }
 
-#confsenha{
-	width: 100px;
-	/* text-align: center; */
+#tab_dados{
+	width: 425px;
 }
-
 
 #CEP{
 	/* margin: 5.1px; */
@@ -211,19 +215,27 @@ label {
 #logradouro{
 	/*margin-right: 5px;
 	margin-left: 5px;*/
-	width: 300px;
+	width: 270px;
+	margin-top: 6px;
 }
 #numero{
 	width: 24px;
+	margin-top: 6px;
 }
 #bairro{
-	width: 100px;
+	width: 150px;
+	margin-top: 6px;
+}
+#complemento{
+	width: 130px;
 }
 #estado{
-	width: 140px;
+	margin-top: 5px;
+	width: 150px;
 }
 #cidade{
-	width: 175px;
+	width: 180px;
+	margin-bottom: 10px;
 }
 
 /* FORMULARIO DA TELA DE SAIR */
@@ -242,7 +254,7 @@ label {
 
 .button {
     /* Para posicionar os botões para a mesma posição dos campos de texto */
-    padding-left: 10em; /* mesmo tamanho que os elementos do tipo label */
+    padding-left: 150px; /* mesmo tamanho que os elementos do tipo label */
 
     /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels
      e os seus campos de texto*/
@@ -276,62 +288,12 @@ footer {
 	background-image: url(../img/fundo-rodape.png);
 	clear: both;
 	padding: 20px 0;
+	margin-top: 30%;
 }
 
 footer .container {
 	position: relative;
 }
-
-.social {
-	position: absolute;
-	top: 12px;
-	right: 0;
-}
-
-/* deixar os icones no meio/ centralizados */
-.social li {
-	float: left;
-	margin-left: 25px;
-	margin-top: -21px;
-	list-style-type: none;
-}
-
-.social a {
-	/*tamanho do imagem */
-	height: 32px;
-	width: 32px;
-
-	/*image replacement */
-	display: block;
-	text-indent: -9999px;
-}
-
-.social a[href*="facebook.com"] {
-	background-image: url(../img/face.png);
-}
-
-.social a[href*="twitter.com"] {
-	background-image: url(../img/twit.png);
-}
-
-.social a[href*="plus.google.com"] {
-	background-image: url(../img/gplus.png);
-}
-
-.sacola {
-	background: url(../img/sacola_1.png) no-repeat top right;
-
-	font-size: 14px;
-	padding-right: 35px;
-	text-align: right;
-	width: 140px;
-
-	position: absolute;
-	top: 0;
-	right: 0;
-}
-
-
 
 /*  ---------------------------------------------------------------- */
 
@@ -343,16 +305,7 @@ footer .container {
 }
 
 
-
-
-
 /* RODAPÉ */
-
-footer {
-	background-image: url(../img/fundo-rodape.png);
-	clear: both;
-	padding: 20px 0;
-}
 
 footer .container {
 	position: relative;
